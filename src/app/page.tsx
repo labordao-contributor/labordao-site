@@ -38,7 +38,7 @@ export default function Home() {
         <section id="about" className="text-center">
           <h2 className="text-4xl font-bold text-orange-500">Our Mission</h2>
           <p className="mt-4 text-lg text-gray-400">
-            The work of builders, community managers, and contributors is the true engine of Web3, but it's often undervalued and hard to prove. LaborDAO is a collective dedicated to creating open-source tools that empower individuals to own their professional identity and build a more equitable digital economy.
+            The work of builders, community managers, and contributors is the true engine of Web3, but it&apos;s often undervalued and hard to prove. LaborDAO is a collective dedicated to creating open-source tools that empower individuals to own their professional identity and build a more equitable digital economy.
           </p>
         </section>
 
