@@ -47,18 +47,20 @@ export default function Home() {
           <h2 className="text-center text-4xl font-bold text-orange-500">Projects</h2>
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* ChainCV Project Card */}
-            <div className="rounded-xl bg-gray-800 p-8 shadow-2xl">
-              <h3 className="text-2xl font-bold">ChainCV</h3>
-              <p className="mt-2 text-gray-400">
-                An on-chain resume generator that aggregates your fragmented Web3 activity into a single, verifiable profile. Make your governance, development, and community contributions legible.
-              </p>
-              <button
-                disabled
-                className="mt-6 cursor-not-allowed rounded-full bg-gray-600 px-6 py-2 font-semibold text-gray-400"
-              >
-                Coming Soon
-              </button>
-            </div>
+              <div className="rounded-xl bg-gray-800 p-8 shadow-2xl">
+                <h3 className="text-2xl font-bold">ChainCV</h3>
+                <p className="mt-2 text-gray-400">
+                  An on-chain resume generator that aggregates your fragmented Web3 activity into a single, verifiable profile. Make your governance, development, and community contributions legible.
+                </p>
+                <a
+                  href="https://chaincv.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block rounded-full bg-blue-600 px-6 py-2 font-semibold text-white transition hover:bg-blue-500"
+                >
+                  View Live App
+                </a>
+              </div>
             
             {/* Future Project Card */}
             <div className="flex items-center justify-center rounded-xl border-2 border-dashed border-gray-700 p-8">
